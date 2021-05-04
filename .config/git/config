@@ -1,0 +1,24 @@
+[user]
+  name = citharus
+  email = citharus@protonmail.com
+  signingkey = citharus@protonmail.com
+
+[github]
+  user = citharus
+
+[core]
+  excludesfile = ~/.config/git/ignore
+  editor = nvim
+
+[commit]
+  gpgsign = true
+
+[tag]
+  gpgsign = true
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  ui = true
+  pager = true
