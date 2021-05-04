@@ -1,0 +1,5 @@
+! FONT
+xtf:Sauce Code Pro Nerd Font Complete:size=12
+
+! THEME
+#include ".themes/Xresources/nord.Xresources"
