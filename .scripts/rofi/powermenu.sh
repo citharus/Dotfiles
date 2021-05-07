@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-rofi_command="rofi -theme ~/.config/rofi/themes/powermenu.rasi"
+rofi_command="rofi -theme ~/.config/rofi/menus/powermenu.rasi"
 
 shutdown=" Shutdown"
 reboot=" Restart"
