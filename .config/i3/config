@@ -31,8 +31,8 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 exec_always --no-startup-id i3-msg "exec feh --bg-fill ~/.wallpapers/Nord/apfttu.jpg"
 
-bindsym Print exec scrot '%Y-%m-%d_%H-%M-%S_screenshot.png' -e 'mv $f ~/Pictures/Screenshots/'
-bindsym $mod+Print exec scrot -u '%Y-%m-%d_%H-%M-%S_screenshot.png' -e 'mv $f ~/Pictures/Screenshots/Windows'
+bindsym Print exec scrot '%Y-%m-%d_%H-%M-%S_screenshot.png' -e 'mv $f ~/Images/screenshots/'
+bindsym $mod+Print exec scrot -u '%Y-%m-%d_%H-%M-%S_screenshot.png' -e 'mv $f ~/Images/screenshots/windows'
 
 # WINDOW 
 bindsym --release $mod+Shift+q kill
