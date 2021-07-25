@@ -105,6 +105,8 @@ assign [class="Atom"] $ws3
 assign [class="firefox"] $ws1
 assign [class="Chromium"] $ws1
 
+assign [title="RANDOM TITLE"] $ws6
+
 exec --no-startup-id spicetify apply
 exec --no-startup-id discord
 exec --no-startup-id chromium
