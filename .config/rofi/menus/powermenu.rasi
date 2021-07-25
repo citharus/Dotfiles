@@ -1,0 +1,61 @@
+@import "~/.themes/rofi/nord.rasi"
+
+* {
+  text-font:                  "Sauce Code Pro Black Nerd Font Complete 12";
+
+  option-6-listview-spacing:  15px;
+
+  menu-window-padding:        15px 15px 0px 15px;
+  menu-element-border:        0px;
+  menu-element-padding:       10px 0px 10px 10px;
+}
+
+#window {
+  width:          100%; //10%
+  height:         100%; //#27.1%
+  fullscreen: true;
+  //x-offset:       -36.8px;
+  //y-offset:       -441.3px;
+}
+
+* {
+  background-color: #00000020;
+  text-color:       @foreground;
+  font:             @icon-font;
+}
+
+#horibox {
+  children: [ listview ];
+}
+#listview {
+  layout: horizontal;
+}
+#element {
+  border-radius:    0px;
+  padding:          @option-element-padding;
+  background-color: @background-light;
+  width: 50px;
+}
+#element.selected {
+  background-color: @accent;
+  text-color:       @background;
+}
+
+* {
+  font: @text-font;
+}
+#window {
+  padding:  @menu-window-padding;
+  children: [ horibox ];
+}
+#listview {
+  spacing:  @option-6-listview-spacing;
+  lines:    5;
+}
+#element {
+anchor: center;
+  font:         @icon-font;
+  border:       @menu-element-border;
+  padding:      @menu-element-padding;
+  border-color: @background-light;
+}

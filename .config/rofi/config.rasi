@@ -1,0 +1,4 @@
+configuration {
+  font: "Sauce Code Pro Nerd Font Complete 12";
+  theme: "~/.config/rofi/menus/apps.rasi"; 
+}
